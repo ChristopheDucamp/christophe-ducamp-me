@@ -1,0 +1,8 @@
+<!-- {{/*
+  Fonctionnalité Facebook parse le nom de l'auteur pour partage social
+*/}}-->
+{{ if isset .Params "author" }}
+  <meta name="author" content="{{ index .Params "author" }}">
+{{ else }}
+  <meta name="author" content="{{ .Site.Params.author }}">
+{{ end }}

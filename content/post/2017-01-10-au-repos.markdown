@@ -1,0 +1,35 @@
+---
+title: Au repos et dans le (photo)flow
+date: 2017-01-10 17:06:00 +01:00
+tags:
+- 100DaysOfPhotos
+- pets
+- deuil
+- filou
+- izy
+- photoflow
+
+draft: false
+---
+
+## Les animaux de la maison
+
+Peu dormi cette nuit, le mental chahuté par le "bon deuil" d'Edgar le lapin et un brainstorming de la veille plus que rock'n roll. 
+
+{{% figure
+src="/img/pets/albert-auvers.jpg" 
+caption="Bon deuil Albert"
+%}}
+
+Apaisé à cette heure par deux hôtes paisibles qui méritent définitivement leurs apps web personnelles (carnet de vaccination, album photos et autres services à recenser.)
+
+![2017-010-easy-canape-sommeil.jpg](/img/pets/izy-dog-canape-sommeil.jpg")
+
+![2017-010-filou.jpg](/img/pets/filou.jpg "Filou")
+
+J'imagine ces apps connectées sur le plus grand graphe social de famille. L'architecture et le design de services sont en cours de conception. Je chronorêve de démarrer les premiers prototypes fonctionnels en février prochain. 
+
+Je serai absent jusqu'à dimanche pour du repos en famille et des premiers tests d'UI avec Barbara : 
+
+- ébauche de production de son site web
+- construction d'un [photoflow](http://ducamp.me/Photoflow) d'atelier qui soit facile, sans frottements et résistant à la poussière.

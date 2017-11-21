@@ -1,0 +1,57 @@
+baseURL = "https://christophe.ducamp.me/"
+languageCode = "fr-fr"
+title = "Carnet de Campagne"
+theme = "after-dark"
+comments = false
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+paginate = 10 # Nombre de posts à présenter avant pagination
+enableRobotsTXT = true # Suggéré, activation fichier robots.txt
+googleAnalytics = "UA-88753189-1" # facultatif, ajout id de suivi pour google analytics
+#disqusShortname = false # facultatif, ajout pseudo Disqus pour les commentaires
+SectionPagesMenu = "main" # Active le système de menu pour les blogueurs paresseux
+footnoteReturnLinkContents = "↩" # Fournit un joli lien retour pour les notes de bas de page
+
+[params]
+  description = "Carnet de Campagne" # Suggestion, controle description metat par defaut
+  author = "xtof" # facultatif, controle affichage nom auteur sur les posts
+  hide_author = false # facultatif, régler sur true pour cacher le nom de l'auteur sur les posts
+  show_menu = true # facultatif, true pour activer les sections de menu
+  powered_by = true # faculatif, mettre sur false pour desactiver les credits
+  # essai OpenGraph
+  # og_image = ["https://christophe.ducamp.me/img/bike/which-way.jpg"]
+  # Open Graph settings afterdark
+  images = [
+    "http://christophe.ducamp.me/img/bike/which-way.jpg"
+  ] # Suggéré pour contrôle par defaut les images Open Graph
+  #theme_variant = "standard dark" # Facultatif, à utiliser pour écraser le thème par défaut
+
+[[menu.main]]
+  name = "Accueil"
+  weight = 1
+  identifier = "accueil"
+  url = "/"
+
+[[menu.main]]
+  name = "Posts"
+  weight = 2
+  identifier = "post"
+  url = "/post/"
+  
+
+
+
+[params.seo.webmaster_verifications]
+  google = "PR_bpKUc_H5CX_qMVLJl_xaDE8sn3Ab6dkycm7OsQ-8" # Google verification code
+  bing = "80C60C095FAB40BE343306EFF748DF2E" # Bing verification code
+  #alexa = "" # Optionnel, Alexa verification code
+  #yandex = "" # Optionnel, Yandex verification code
+
+  
+
+[Blackfriday]
+smartypantsQuotesNBSP = true
+
+
+
+

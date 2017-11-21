@@ -1,0 +1,21 @@
+<p>
+  Publié
+  {{ if ne .Site.Params.hide_author true }}
+    {{ with .Params.author }}
+      par <span class="p-author h-card" itemprop="author">{{ index . }}</span>
+    {{ else }}
+      par <span class="h-card" itemprop="author">{{ .Site.Params.author }}</span>,
+    {{ end }}
+  {{ end }} le
+    <time class="post-date dt-published" datetime="{{ dateFormat "2006-01-02T15:04:05-07:00" (default .Date (.PublishDate)) }}">
+    {{ (default .Date (.PublishDate)).Format "2" }}{{ if in (slice 1) (default .Date (.PublishDate)).Day}}er{{ end }}
+    {{ index $.Site.Data.mois (printf "%d" (default .Date (.PublishDate)).Month) }}
+    {{ .Date.Year }}</time> dans
+    {{ with .Params.categories }}
+    <span itemprop="articleSection">{{ delimit (apply (apply (sort .) "partial" "post/category-link.html" ".") "chomp" ".") ", " " and " }}</span>
+   {{ end }}
+   {{ with .Params.tags }}
+    : {{ delimit (apply (apply (sort .) "partial" "post/tag-link.html" ".") "chomp" ".") ", " " et " }}
+  {{ end }}
+    - <span itemprop="wordCount">{{ .WordCount }}</span> mots
+</p>
