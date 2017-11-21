@@ -1,0 +1,8 @@
+public/
+.idea/*
+.idea/workspace.xml
+.DS_Store
+node_modules
+static/img/jamstack-cms/
+.idea/vcs.xml
+.vscode/settings.json
