@@ -4,9 +4,9 @@ date: 2017-08-30T07:38:19+02:00
 draft: true
 ---
 
-J'ai donc abandonné définitivement [Jekyll](https://jekyllrb.com/) pour me lancer dans le grand bain de la JAMstack avec [Hugo](https://gohugo.io), le générateur de site statique écrit dans [Go](https://golang.org). Go est un langage de programmation rapide développé par Google.
+J'ai donc abandonné définitivement [Jekyll](https://jekyllrb.com/) pour me lancer dans le grand bain de la JAMstack avec [Hugo](https://gohugo.io), le générateur de site statique écrit en [Go](https://golang.org). Go est un langage de programmation rapide développé par Google.
 
-Nouveau tournant. Mon intention serait de construire un nouveau portfolio plus en image, pratique et raffiner quelques compétences de développement web.
+Nouveau tournant avec l'intention de construire un nouveau portfolio plus en image, pratique et raffiner quelques compétences de développement web.
 
 ## Objectifs
 

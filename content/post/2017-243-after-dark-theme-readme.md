@@ -26,7 +26,7 @@ images: [
 
 (hack-memo à imaginer pour les enfants : [animation css](https://www.bryanbraun.com/2014/03/15/how-i-rebuilt-flying-toasters-using-only-css-animations/) des [grille pains volants](http://www.masswerk.at/flyer/?8,md,clr))
 
-Dans le contexte de mon exploration  des [générateurs de site statique](https://jamstatic.fr/), After-Dark est un thème simple et robuste assemblé par <span class="h-card">[Josh Habdas](https://habd.as/)</span>, nomade numérique à Bali. C'est un thème construit sur [hack.css](https://hackcss.egoist.moe/) et je l'apprécie pour la lisibilité du rendu brut très proche du code markdown. Un thème que je conserverai sans doute dans ce nouveau "tipi numérique" motorisé par <a target="intro" href="https://gohugo.io/">GoHugo</a>.
+Dans le contexte de mon apprentissage des [générateurs de site statique](https://jamstatic.fr/), After-Dark est un thème simple et robuste assemblé par <span class="h-card">[Josh Habdas](https://habd.as/)</span>, nomade numérique à Bali. C'est un thème construit sur [hack.css](https://hackcss.egoist.moe/) et que j'ai choisi pour sa lisibilité de rendu brut très proche du code markdown. Un thème que je conserverai un certain temps dans ce nouveau "tipi numérique" motorisé par <a target="intro" href="https://gohugo.io/">GoHugo</a>.
 
 ## Présentation After-Dark
 
