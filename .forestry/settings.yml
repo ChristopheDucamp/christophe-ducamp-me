@@ -7,6 +7,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-  post:
+  posts:
     default_front_matter_template: post
+  photos:
+    default_front_matter_template: photos
+  microposts:
+    default_front_matter_template: microposts
 version: 0.38.1
