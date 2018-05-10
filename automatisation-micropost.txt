@@ -1,0 +1,15 @@
+function newmicropost() {
+        local date=`date +%Y-%m-%d-%H%M%S`
+        local file="microposts/${date}.md"
+        hugo new ${file} | cut -d ' ' -f 1 | xargs subl 
+    }
+    
+    // $1 Le nom du fichier à créer
+    function newpost() {
+        hugo new "posts/$1.md" | cut -d ' ' -f 1 | xargs subl
+    }
+    
+    // $1 Le nom du fichier à créer 
+    function newphotopost() {
+    	hugo new "photos/$1.md" | cut -d ' ' -f 1 | xargs subl
+    }
