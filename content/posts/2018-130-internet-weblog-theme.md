@@ -1,7 +1,7 @@
 ---
 title: "Thème Internet Weblog"
-date: 2018-05-10T13:13:17+02:00
-description: "Un nouveau thème pour microbloguer "sans titre"
+date: "2018-05-10T13:13:17+02:00"
+description: "Un nouveau thème pour microbloguer sans titre"
 categories: [technologie]
 #tags: [gohugo, theme]
 slug: ""
