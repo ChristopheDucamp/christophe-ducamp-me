@@ -7,6 +7,8 @@ tags:
 - anniversaire
 - bruno
 - playlist
+
+draft: true
 ---
 
 Arrivé en [zone rouge](http://ducamp.me/Zone_rouge) à Puteaux. Commutation très fluide et sans encombres via CityScoot et la rencontre d'Amina, un chauffeur heureux chez Uber. 

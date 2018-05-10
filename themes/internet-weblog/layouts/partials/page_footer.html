@@ -1,0 +1,24 @@
+<footer>
+  <div class="footer_text">
+      <div>
+        <h3>Bonjour, <a href="{{ .Site.Author.aboutpage }}">moi c'est {{ .Site.Author.firstname }}</a></h3>
+        <p>
+          {{ partial "bio.html" . }}
+        </p>
+      </div>
+      {{ if isset .Site.Author "flickrid" | and ( not ( eq .Site.Author.flickrid "" ) ) }}
+      <div>
+          <h3><a href="https://www.flickr.com/photos/{{ .Site.Author.flickrid }}/">Flux Photo</a></h3>
+          <div id="photos"></div>
+        </div>
+      </div>
+      {{ end }}
+  </div>
+
+  {{ if .Site.Params.showcopyright }}
+    <div class="footer_copyright">
+      &copy; {{ now.Format "2006" }} <a href="{{ .Site.Author.aboutpage }}">{{ .Site.Author.firstname }} {{ .Site.Author.lastname }}</a>
+      {{ with .Site.Author.location }} - Fait à {{ . }}{{ end }}
+    </div>
+  {{ end }}
+</footer>
