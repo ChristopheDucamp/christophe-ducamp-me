@@ -1,0 +1,77 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: 
+- name: publishdate
+  label: Publishdate
+  type: datetime
+  hidden: false
+  default: ''
+- name: lastmod
+  label: Lastmod
+  type: datetime
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: toc
+  label: Toc
+  type: boolean
+  hidden: false
+  default: false
+- name: slug
+  label: Slug
+  type: text
+  hidden: false
+  default: ''
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default:
+  - technologie
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default:
+  - 100daysofcode
+- name: images
+  label: Images
+  type: image_gallery
+  hidden: false
+  default:
+  - ''
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: author
+  label: Author
+  type: text
+  hidden: false
+  default: ''
+- name: publishDate
+  label: Publishdate
+  type: datetime
+  hidden: false
+  default: ''
+- name: draft
+  label: Draft
+  type: boolean
+  hidden: false
+  default: true
