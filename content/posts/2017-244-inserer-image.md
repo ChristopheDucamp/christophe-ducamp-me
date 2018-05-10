@@ -2,12 +2,12 @@
 title: "Insérer des Images dans Hugo"
 date: 2017-08-31T17:19:48+02:00
 publishDate: 2017-09-01
-draft: false
 description: "`figure` et `instagram` sont deux shortcodes prédéfinis pour faciliter l'insertion d'images dans un site web motorisé par Hugo."
 toc: true
 slug: inserer-images
 categories: ["technologie"]
 tags: [images, instagram, photos]
+draft: true
 images: [
   "https://source.unsplash.com/category/technology/1600x900"
 ] # écrase l'image open-graph valable sur le site
