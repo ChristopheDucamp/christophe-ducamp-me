@@ -13,6 +13,6 @@ location: "<Enter Location, (e.g. NYC)>"
 camera: "<Enter Camera, (e.g. iPhone X)>"
 
 ---
-Test d'un premier post photo avec quelques détails de la rétrospective de Tintoret au Musée du Luxembourg. 
+Test d'un premier post photo avec quelques détails de la rétrospective de Tintoret au Musée du Luxembourg.
 
 ![](/uploads/2018/05/10/genial.jpg)![](/uploads/2018/05/10/tintoret2.jpg)![](/uploads/2018/05/10/tintoret1-1.jpg)![](/uploads/2018/05/10/tintoret3.jpg)
