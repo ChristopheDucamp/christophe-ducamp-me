@@ -131,7 +131,6 @@ nav ul > li {
   font-size: 18px;
   line-height: 28px;
   margin: 0;
-  text-align: justify;
 }
 
 .post > p {
@@ -322,7 +321,6 @@ and (max-width: 780px) {
   .footer_text > div {
     flex: auto;
     width: 100%;
-    text-align: justify;
   }
 
   #photos {

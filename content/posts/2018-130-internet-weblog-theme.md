@@ -18,9 +18,7 @@ Le thème contient une section bio personnalisable, un flux de photos basé sur 
 
 L'installation se fait classiquement en déclarant le thème dans le fichier `config.toml`.
 
-Pas de difficulté majeure rencontrée sur cette migration si ce n'est la maîtrie de la prévisualisation des posts photos.   
-
-Après avoir francisé les dates, quelques points restent à régler durant les prochaines semaines. Par ordre de difficulté croissante, ce sera : 
+Pas de difficulté majeure rencontrée sur cette migration si ce n'est comprendre le contrôle de mise en page pour faire apparaître les aperçus de microposts photos. Après avoir francisé les dates, supprimé la justification des textes, plusieurs points restent à régler durant les prochaines semaines. Par ordre de difficulté croissante, ce sera : 
 
 1. l'installation d'un module d'édition avec un lien Github en bas des posts
 2. l'[indiewebification](http://indiewebify.me) de l'ensemble
