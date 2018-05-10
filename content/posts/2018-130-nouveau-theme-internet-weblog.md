@@ -1,7 +1,7 @@
 ---
 title: "Nouveau Theme Internet Weblog"
 date: 2018-05-10T12:29:58+02:00
-draft: false
+draft: true
 ---
 
 Changement de thème pour cette motorisation GoHugo. Choisi le thème [internet weblog](https://themes.gohugo.io/internet-weblog/) créé par Josh Johnson. Un look de blog associant un flux de microblog (posts sans titre) et de photoblog. 
@@ -15,6 +15,7 @@ L'installation se fait classiquement en déclarant le thème dans le fichier `co
 Il y a quelques concepts que ce thème emploie pour créer un blog personnel. Parce que ce thème est conçu pour être un blog personnel, il opte pour des simplifications comme l'utilisation de l'option du “Section Menu for the Lazy Blogger” dans Hugo pour afficher un menu simple. Cela suppose que vous appelez les articles de votre blog et les organisez comme tels. 
 
 Par exemple,  créer un nouveau post (ou micropost, ou photopost) avec Hugo nécessiterait de taper :
+
 ```bash
   $ hugo new posts/mon-nouveau-post.md
 
@@ -22,6 +23,7 @@ Par exemple,  créer un nouveau post (ou micropost, ou photopost) avec Hugo néc
 
   $ hugo new photos/mes-vacances-en-hongrie.md
 ```
+
 Cela suppose également que vous souhaitez afficher des liens vers vos sections de contenu (posts, microposts, photos) et que vous souhaitez afficher des liens vers d'autres pages du menu et cela nécessite une certaine configuration de votre part. Ce guide vous emmènera à travers les étapes pour configurer votre blog pour utiliser le thème.  
 
 ### Configurer votre Blog
@@ -233,7 +235,7 @@ Non
 
 ## Contribuer
 
-Did you find a bug or have an ideas for new features? Feel free to use the issue tracker to let me know or make a pull request.
+Did you find a bug or have an ideas for new features ? Feel free to use the issue tracker to let me know or make a pull request.
 
 ## Librairies Tiers
 

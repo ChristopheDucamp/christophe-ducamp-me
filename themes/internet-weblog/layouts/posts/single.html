@@ -10,7 +10,7 @@
         <h2><a rel="remote-article" href="{{ .Params.externalurl }}">→ {{ .Title }}</a> <a href="{{ .Permalink }}">∞</a></h2>
       {{ end }}
 
-      <div class="postmeta">Posted on <time datetime="{{ .Date }}" pubdate="">{{ .Date.Format "January 2, 2006" }}</time> in
+      <div class="postmeta">Posté le <time class="dt-updated" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "2" }}{{ if in (slice 1) .Date.Day}}er{{ end }}&nbsp;{{ index $.Site.Data.mois  (printf "%d" .Date.Month) }}&nbsp;{{ .Date.Year }}</time> dans 
         <span class="categories">
           {{ range $i, $v := .Params.categories }}
             <a class="category" href="/categories/{{ $v | urlize }}">{{ $v }}</a>{{ if ne (len $.Params.categories) (add $i 1) }}, {{ end }}

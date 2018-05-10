@@ -70,6 +70,12 @@ footnoteReturnLinkContents = "↩" # Fournit un joli lien retour pour les notes 
   #yandex = "" # Optionnel, Yandex verification code
 
   
+## repo Gh pour le pied de page (inclure un slash ? la fin)
+  ghrepo = "https://github.com/ChristopheDucamp/christophe-ducamp-me/"
+  favicon = "img/favicon.ico"
+  commit = "https://github.com/ChristopheDucamp/xtof-hugo-zen/tree"
+  
+  
 
 [Blackfriday]
 smartypantsQuotesNBSP = true

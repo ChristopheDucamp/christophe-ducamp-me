@@ -6,9 +6,9 @@
       <h2><a rel="full-article" href="{{ .Permalink }}">{{ .Title }}</a></h2>
 
       <div class="postmeta">
-        {{ with .Params.location }}Photos taken in {{ . }} on {{ end }}
-        <time datetime="{{ .Date }}" pubdate="">{{ .Date.Format "January 2, 2006" }}</time>
-        {{ with .Params.camera }} with {{ . }}{{ end }}
+        {{ with .Params.location }}Photos prises dans {{ . }} le {{ end }} 
+        Posté le <time class="dt-updated" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "2" }}{{ if in (slice 1) .Date.Day}}er{{ end }}&nbsp;{{ index $.Site.Data.mois  (printf "%d" .Date.Month) }}&nbsp;{{ .Date.Year }}</time> 
+        {{ with .Params.camera }} avec {{ . }}{{ end }}
       </div>
 
       <p>

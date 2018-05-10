@@ -1,4 +1,7 @@
 <article class="micropost">
   {{ .Content }}
-  <a href='{{ .Permalink }}'><aside class="dates">→ {{ .Date.Format "2006/01/02 3:04 PM" }}</aside></a>
+  <a href='{{ .Permalink }}'><aside class="dates">→ <time class="dt-updated" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "2" }}{{ if in (slice 1) .Date.Day}}er{{ end }}&nbsp;{{ index $.Site.Data.mois  (printf "%d" .Date.Month) }}&nbsp;{{ .Date.Year }}</time></aside></a>
 </article>
+
+
+  

@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/weblog.css" media="screen" charset="utf-8" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.14/css/lightgallery.min.css" type="text/css" />
     {{ partial "custom_stylesheets.html" . }}
+    <!-- Real Favicon Generator -->
+    {{ partial "favicons.html" . }}
+    <!-- /Real Favicon Generator favicons -->
 
     {{ if .Site.Params.rssenabled }}
 	<link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />

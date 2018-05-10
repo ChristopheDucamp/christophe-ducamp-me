@@ -10,7 +10,7 @@ tags: [optimisation, images, imagemagick, shortcodes, thumbnails]
 images: ["/img/bike/thumbnails/which-way.jpg"] # écrase l'image open-graph du site
 --- 
 
-Chantier en cours pour parvenir à trouver une solution facile pour compresser et publier des images sur le web. Prendre un exemple dans la jungle et construire ...
+L'idée serait de parvenir à trouver une solution facile pour compresser et publier des images sur le web. Prendre un exemple dans la jungle et construire ...
 
 {{< figure 
   src="/img/bike/thumbnails/which-way.jpg"
