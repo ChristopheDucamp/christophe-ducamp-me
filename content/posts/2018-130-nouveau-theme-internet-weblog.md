@@ -121,8 +121,8 @@ Votre Prénom.
 Oui. Ceci est utilisé dans le pied de page pour dire Bonjour et à d'autres endroits pour vous identifier comme l'auteur.
 
 `[author]` - `LastName`
-Your last name
-Not really. It is used in some places to identify you as the author.
+Votre nom de famille
+Pas vraiment. Il est utilisé à quelques endroits pour vous identifier comme l'auteur.
 
 `[author]` - `AboutPage`
 `/about` ou `http://about.autre.com`
@@ -130,23 +130,23 @@ Seulement si vous voulez une page à propos. Ceci est exposé pour vous permettr
 
 `[author]` - `Location`
 `Your City`
-No. If set, this is added to the Copyright in the footer so you can give some love to your hometown.
+Non. Si c'est réglé, ceci est ajouté au Copyright dans le pied de page afin que vous puissiez donner un peu d'amour à votre ville de résidence.
 
 `[author]` - `FlickrID`
 `Your Flickr ID`
-No. The footer shows your photo stream from flickr. If you don’t set it, nothing will be displayed.
+Non. Le pied de page affiche votre flux de photo extrait de  flickr. Si vous ne voulez pas l'installer, rien ne sera affiché.
 
 `[params]` - `Description`
 `Describe your site`
-No. If set, this is added to your pages metadata.
+Non. Si c'est réglé, ceci est ajouté aux métadonnées de vos pages.
 
 `[params]` - `ShowCopyright`
-`true` or `false`
-No. If true, Copyright text will be added to the footer.
+`true` ou `false`
+Non. Si true, le texte Copyright sera ajouté au pied de page.
 
 `[params]` - `RSSEnabled`
-`true` or `false`
-No. If true, RSS pages will be generated.
+`true` ou `false`
+Non. Si true, les pages RSS seront générées.
 
 `[params]` - `RSSSections`
 `[ "Posts", "Microposts", "Photos" ]`
@@ -207,27 +207,27 @@ Voici un exemple de fichier  `config.toml` :
     	url = "/photos/"
     
 
-### Overrides
+### Remplacements 
 
 Le thème vous demande de remplacer quelques fichiers dans votre blog pour finaliser la personnalisation de votre blog. Voici une liste des fichiers que vous pouvez remplacer et pourquoi. Pour les remplacer, créez votre propre version du fichier sous `layouts/partials` -vous devrez peut-être créer ce répertoire.
 
-FichierPouquoi le remplacer?Requis
+Fichier Pouquoi le remplacer? Requis
 
 `bio.html`
-The footer of the blog features a section about you.
-Yes. Otherwise it just has default text.
+Le pied de page du blog met en avant une section vous concernant. 
+Oui. Autrement, ce sera simplement le texte par défaut.
 
 `not_found.html`
-If you want to customize the 404 not found page, you can update it here.
-Probably. The default is pretty plain.
+Si vous voulez personnaliser la page 404 not found, vous pouvez la mettre à jour ici.
+Probablement. Celle par défaut est vraiment brute.
 
 `custom_javascript.html`
-If you need all pages to have your own custom javascript files referenced, you can do so here.
-No
+Si vous avez besoin que toutes les pages aient vos propres fichiers javascript référencés, vous pouvez le faire ici.
+Non
 
 `custom_stylesheets.html`
-If you need all pages to have your own custom stylesheets referenced, you can do so here.
-No
+Si vous avez besoin que toutes les pages aient vos propres feuilles de style personnalisées, vous pouvez le faire ici. 
+Non
 
 `custom_image_handler.html`
 Le pied de page du blog fait apparaitre un flux de photo. Si vous souhaitez le personnaliser ou utiliser une source différence, vous pouvez remplacer ce comportemement.
@@ -235,21 +235,21 @@ Non
 
 ## Contribuer
 
-Did you find a bug or have an ideas for new features ? Feel free to use the issue tracker to let me know or make a pull request.
+Vous avez trouvé un bug ou vous avez des idées de nouvelles fonctionnalités ? Sentez-vous libre d'utiliser le "issue tracker " pour me le faire savoir ou faites une pull request.
 
 ## Librairies Tiers
 
-This theme makes use of the following 3rd Party Libraries.
+Ce thème fait usage de Librairies Tiers 
 
-  * [lightGallery v1.2.14](http://sachinchoolur.github.io/lightGallery/) - Used in page footer to provide a gallery to view photos in the photo stream.
+  * [lightGallery v1.2.14](http://sachinchoolur.github.io/lightGallery/) - Utilisé dans le pied de page pour fournir une galerie pour visualiser les photos dans le flux photo.
 
 ## Licence
 
-This theme is released under MIT. For more information, please see the [License](http://jnjosh.mit-license.org/).
+Ce thème est sous licence MIT. Pour plus d'informations, regardez SVP la [Licence](http://jnjosh.mit-license.org/).
 
 ## Contact
 
-This is the first theme I’ve made for Hugo, so I’m sure I’ve done some things wrong or assumed too much. If you have ideas or things that should be fixed, please let me know.
+Ceci est le premier thème que j'ai produit pour Hugo, aussi soyez certains que j'ai du faire quelques erreurs. Si vous avez des idées ou choses qui devraient être réparées, SVP faites-le moi savoir.
 
   * [Josh Johnson](http://jnjosh.com/) [@jnjosh](http://twitter.com/jnjosh)
 
