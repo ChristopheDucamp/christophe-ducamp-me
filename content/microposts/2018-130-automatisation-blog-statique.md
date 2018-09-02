@@ -4,7 +4,7 @@ date: 2018-05-10T15:33:06+02:00
 draft: true
 ---
 
-Comme je l'ai écrit dans le passé [ce blog est désormais alimenté par Hugo](https://jnjosh.com/posts/goodbye-octopress-hello-hugo/) -un générateur de site statique. C'est génial et tout, mais cela limite vraiment quand je peux écrire des messages. Quelque chose faisant tourner Hugo doit construire le site et cette sortie doit être publiée quelque part. J'ai fait quelques petites choses pour rendre ce processus plus automatique.
+Comme je l'ai écrit dans le passé [ce blog est désormais mortorisé par Hugo](https://jnjosh.com/posts/goodbye-octopress-hello-hugo/) -un générateur de site statique. C'est génial et tout, mais cela limite vraiment quand je peux écrire des messages. Quelque chose faisant tourner Hugo doit construire le site et cette sortie doit être publiée quelque part. J'ai fait quelques petites choses pour rendre ce processus plus automatique.
 
 ## Écrire des Posts sur mon MacBook Pro
 
@@ -30,7 +30,7 @@ This is really great when I want to publish a [Micro.blog](https://micro.blog) p
 
 C'est vraiment génial quand je veux publier un article [Micro.blog](https://micro.blog) sur une idée qui surgit en travaillant. Je suis déjà dans le terminal normalement en train de sauter dans mon répertoire de blogs et taper `newmicropost` est assez rapide.
 
-## Writing Posts on my iPad or iPhone
+## Écrire des posts à partir de mon iPad ou iPhone
 
 This is a bit more difficult and I’m still working out how to best do this. The biggest key was to not have to run Hugo myself. Offloading that task (and hosting) to [Netlify](https://www.netlify.com) powered by a Github webhook means I can create and publish from any device simply by commiting to Github.
 

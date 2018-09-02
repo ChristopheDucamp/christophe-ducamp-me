@@ -7,13 +7,13 @@ draft: true
 
 ## À propos de moi
 
-Dans la vraie vie, je suis père de famille et entrepreneur indépendant. Ma profession déclarée à l'URSAFF est "conseil en communication", un métier que j'exerce depuis plus de 25 ans. Mes passions en cours évoluent autour du design social. Et je suis heureux d'accompagner quelques communautés, entrepreneurs et artistes sur leur stratégie numérique.
+Père de famille et conseil en communication/innovation, un métier que j'exerce depuis plus de 25 ans. Mes passions en cours évoluent autour du design social. Et je suis heureux d'accompagner quelques communautés, entrepreneurs et artistes sur leur stratégie numérique.
 
 Je reste joignable sur twitter : <span rel="me" class="h-card">[@xtof_party](https://twitter.com/xtof_party)</span>
 
 ## À propos de ce site
 
-Première installation avec le thème de base de Jekyll. L'idée : poursuivre l'apprentissage HTML-CSS, et accompagner mes enfants et amis sur l'indieweb. Sur cette branche (un sous-domaine de ducamp.me), je repars de zéro pour apprendre la motorisation de sites statiques sous la bienveillance de la [communauté francophone jamstatic](http://jamstatic.fr) et de la [communauté indieweb](https://indieweb.org/). 
+Un test de motorisation sur gohugo avec l'intention de poursuivre l'apprentissage HTML-CSS, et accompagner mes enfants et amis sur l'indieweb. Sur cette branche (un sous-domaine de ducamp.me), je repars de zéro pour apprendre la motorisation de sites statiques sous la bienveillance de la [communauté francophone jamstatic](http://jamstatic.fr) et de la [communauté indieweb](https://indieweb.org/). 
 
 
 ### Champs d'intérêts et explorations professionnelles 
