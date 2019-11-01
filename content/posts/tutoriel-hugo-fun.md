@@ -18,33 +18,33 @@ Dans ce guide, je vais vous montrer comment configurer votre environnement de d�
 
 L'acronyme légendaire de design KISS - _Keep It Simple, Stupid_ - peut être appliqué à Hugo et à sa façon d'approcher l'espace des générateurs de sites statiques.
 
-Construit en Go, Hugo compile rapidement vos pages statiques (il faut quelques fractions de millisecondes pour compiler un petit site - et il peut produire des milliers de pages en quelques secondes).
+Construit en Go, Hugo compile rapidement vos pages statiques (il faut quelques fractions de millisecondes pour compiler un petit site - et il sait produire des milliers de pages en quelques secondes).
 
-Hugo fournit également des outils essentiels au workflow du site statique (y compris les outils de déploiement et de migration), permettant aux développeurs et aux concepteurs de se concentrer sur les parties amusantes, telles que l'exercice de leur créativité et la mise en œuvre de cette créativité dans la construction du site.
+Hugo fournit également des outils essentiels au workflow du site statique (y compris les outils de déploiement et de migration), permettant aux développeurs et aux concepteurs de se concentrer sur les parties amusantes, tels que l'exercice de leur créativité et la mise en œuvre de cette créativité dans la construction du site.
 
 ### Pourquoi des Sites Web Statiques ?
 
-Lorsque nous construisons des sites web basés sur le contenu, nous pouvons prendre certaines généralités sur tous les sites et Hugo donne un cadre pour cela. Plus précisément, nous pouvons prendre des types de contenu tels que des publications, des catégories, des revues ou des produits et organiser les données. Ensuite, nous pouvons donner à chacun un regard spécifique via des modèles et des feuilles de style.
+Lorsque nous construisons des sites web basés sur le contenu, nous pouvons prendre certaines généralités sur tous les sites et Hugo donne un cadre pour cela. Plus précisément, nous pouvons piocher des types de contenu comme des publications, des catégories, des revues ou des produits et organiser les données. Ensuite, nous pouvons donner à chacun un regard spécifique via des modèles et des feuilles de style.
 
-À l'avenir, nous pouvons alors conduire tout ce dont nous avons besoin dans l'espace statique HTML/CS/JS statique. Lorsque vous pensez à cela de façon pragmatique, c'est un grand espace qui laisse de la place à beaucoup de créativité.
+Nous pouvons alors piloter tout ce dont nous avons besoin dans l'espace statique HTML/CS/JS. Si vous pensez à cela de façon pragmatique, c'est un grand espace qui laisse de la place à beaucoup de créativité.
 
-JQuery fonctionnera bien et rien ne vous empêchera d'utiliser si vous en avez besoin des services tiers sur votre page statique. Ne vous limitez donc pas en pensant que vous ne pouvez pas intégrer d'autres bibliothèques ou applications dans vos sites statiques. Ce n'est vraiment pas le cas. Vous pouvez utiliser n'importe laquelle des bibliothèques JavaScript disponibles.
+JQuery fonctionnera bien et rien ne vous empêchera d'utiliser des services tiers sur votre page statique. Ne vous limitez donc pas en pensant que vous ne pouvez pas intégrer d'autres bibliothèques ou applications dans vos sites statiques. Ce n'est vraiment pas le cas. Vous pouvez utiliser n'importe laquelle des bibliothèques JavaScript disponibles.
 
 Aussi valable pour un site Web de type brochure d'entreprise avec quelques pages avec un lien vers une page Google Forms pour nous contacter. Et si vous devez afficher d'autres types de données, vous pouvez utiliser JavaScript pour cet aspect de votre site.
 
 ### Comment ça Marche pour Mon Business et Mes Clients ?
 
-Prenez, par exemple, un petit magasin ou un freelance avec quelques produits ou services qui ne nécessitent pas une solution eCommerce complète. Au lieu de cela, il n’a besoin que des informations sur le produit et un lien "contact" sur la page. Hugo peut faire ça en une matinée. L'hébergement même n’est pas un souci - c'est une réflexion après-coup, vraiment, car nous servons simplement des pages HTML de base.
+Prenez par exemple, un petit magasin ou un freelance avec quelques produits ou services qui ne nécessitent pas une solution eCommerce complète. Il n'a besoin que d'informations sur le produit et un lien "contact" sur la page. Hugo sait faire ça en une matinée. L'hébergement même n'est plus un souci - c'est une réflexion après-coup, vraiment, car nous servons simplement des pages HTML de base.
 
-Hugo fonctionne également bien pour de la documentation de projet sur les projets GNU. Pensez par exemple, à des start-up ou des PME qui ont besoin d'une présence simple.
+Hugo fonctionne également bien pour de la documentation de projet sur les projets GNU. Pensez par exemple à des start-up ou  à des PME qui ont besoin d'une présence simple.
 
 ### Quelles sont les Limites des Sites Statiques ?
 
-Ce qu’Hugo ne sait pas faire, c'est le contenu **dynamique**, par exemple, les formulaires basés sur la base de données, la recherche ou les systèmes utilisateurs. Si c'est ce que vous cherchez, Hugo n’est sûrement **pas** ce que vous voulez. Mais pour les autres cas, quand vous vous dites "pourquoi ne pas simplement mettre en place une page de base pour cela ? », les générateurs de sites Web statiques sont une option solide. Sachez aussi que Hugo n'est pas le seul générateur de site statique. Il en existe beaucoup d’autres qui fonctionnent depuis longtemps, [vous trouverez ici][2] une liste de ceux-ci.
+Ce qu'Hugo ne sait pas faire, c'est le contenu **dynamique**, par exemple des formulaires basés sur la base de données, la recherche ou les systèmes utilisateurs. Si c'est ce que vous cherchez, Hugo n'est sûrement **pas** ce que vous voulez. Mais pour les autres cas, quand vous vous dites "pourquoi ne pas simplement mettre en place une page de base pour cela ? », les générateurs de sites Web statiques sont une option solide. Sachez aussi que Hugo n'est pas le seul générateur de site statique. Il en existe beaucoup d’autres qui fonctionnent depuis longtemps, [vous trouverez ici][2] une liste de ceux-ci.
 
 Pour créer des blogs de contenu en direct comme des sites d'information, Hugo pourrait être une excellente solution pour monter rapidement une page afin que cette couverture soit liée à partir de votre site principal, la mettre en ligne en quelques minutes, ce qui signifie que vous pouvez continuer à y ajouter rapidement et redéployer les modifications très rapidement. Mais pour faire un site de nouvelles complet avec la recherche et de nombreux écrivains, il n’est vraiment pas approprié d'utiliser Hugo.
 
-Hugo pêche aussi dans l’utilisation des outils plus avancés pour son pipeline d'actifs tels que ES6 et Sass - si vous souhaitez utiliser cette technologie, vous devrez inclure Gulp ou Grunt pour faire le travail ; Sinon, vanilla CSS et JavaScript fonctionnent mieux.
+Hugo pêche aussi dans l'utilisation des outils plus avancés pour son pipeline d'actifs tels que ES6 et Sass - si vous souhaitez utiliser cette technologie, vous devrez inclure Gulp ou Grunt pour faire le travail ; Sinon, vanilla CSS et JavaScript fonctionnent mieux.
 
 ## Votre Environnement de Développement Maison 
 
@@ -102,7 +102,7 @@ Maintenant éditez le fichier dans `content/post/premier-post.md`, il contiendra
 ```
 ### Front Matter
 
-Le contenu à l’intérieur de `---` est la configuration YAML pour le post. Cette configuration s’appelle **front matter**. Elle vous permet de définir la configuration du post avec son contenu. Par défaut, chaque post aura les propriétés de configuration présentées au-dessus.
+Le contenu à l’intérieur de `---` est la configuration YAML pour le post. Cette configuration s'appelle le **front matter**. C'est elle qui vous permet de définir la configuration du post avec son contenu. Par défaut, chaque post aura les propriétés de configuration présentées au-dessus.
 
 Ajoutez un peu de texte après le `---` comme suit :
 
@@ -237,11 +237,11 @@ De même [hugodeploy][18] fournit une configuration SFTP à déployer, ou vous p
 
 ## Conclusion
 
-Les générateurs de sites statiques existent depuis un certain temps, et Hugo construit vraiment sur un ensemble d'outils, il est rapide et facile de produire des sites, ou même de migrer un site existant de [WordPress][20] vers Hugo. Il existe beaucoup d'outils pour Hugo, y compris des éditeurs front-end, [regardez-les][21].
+Les générateurs de sites statiques existent depuis un certain temps, et Hugo construit sur un ensemble d'outils, il est rapide et facile de produire des sites, ou même de migrer un site existant de [WordPress][20] vers Hugo. Il existe beaucoup d'outils pour Hugo, y compris des éditeurs front-end, [regardez-les][21].
 
-À l'avenir, ce serait bien de voir plus de modules pour que Hugo puisse supporter par exemple des choses comme un formulaire de contact et une galerie, ou les posts en rapport.
+À l'avenir, ce serait bien de voir plus de modules pour que Hugo sache supporter par exemple des choses comme un formulaire de contact et une galerie, ou les posts en rapport.
 
-La [feuille de route d'Hugo][22] a beaucoup d'idées qui sortent comme le redimensionnement dynamique de l'image, le support de rsync et l'importation d'images à partir des fournisseurs d'hébergement et un hébergement plus facile avec l'intégration AWS EC2 et GitHub.
+La [feuille de route d'Hugo][22] contient beaucoup d'idées comme le redimensionnement dynamique de l'image, le support de rsync et l'importation d'images à partir des fournisseurs d'hébergement et un hébergement plus facile avec l'intégration AWS EC2 et GitHub.
 
 Si vous n'utilisez pas encore Hugo, n'oubliez pas de vérifier le projet à mesure qu'il se développe !
 

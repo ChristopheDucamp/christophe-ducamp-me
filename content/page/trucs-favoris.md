@@ -3,7 +3,7 @@ title: "Quelques Trucs Favoris"
 date: 2017-09-02T08:12:53+02:00
 lastmod: 2017-09-03
 publishdate: 2017-09-03
-expirtydate: 2017-12-31
+expirydate: 2017-12-31
 description: "Les trucs que j'utilise depuis longtemps et presque tous les jours. Un assortiment avec des envies venues d'ailleurs."
 categories: [technologie]
 #tags: [macos, apps, productivité, terminal, ios, alfred, workflow]
@@ -16,7 +16,7 @@ images: [
 ] # écrase l'image open graph du site
 ---
 
-Inspiré par les listes d'[Aaron](https://aaronparecki.com/favorite-things/), [Katie Floyd](http://katiefloyd.com/favorite-things/) et [Nikita](https://github.com/nikitavoloboev/my-mac-os) je suis en train de préparer une liste de quelques-uns de mes trucs favoris. Des *choses* que j'utilise depuis longtemps et presque tous les jours. Je n'ajouterai pas à cette page de choses avec lesquelles je ne ne me sens pas à l'aise. Les contenus de cette page seront  actualisés sur un traqueur et expireront au plus tard fin 2017.
+Inspiré par les listes d'[Aaron](https://aaronparecki.com/favorite-things/), [Katie Floyd](http://katiefloyd.com/favorite-things/) et [Nikita](https://github.com/nikitavoloboev/my-mac-os) je suis en train de préparer une liste de quelques-uns de mes trucs favoris. Des *choses* que j'utilise depuis longtemps et presque tous les jours. Je n'ajouterai pas à cette page de choses avec lesquelles je ne ne me sens pas à l'aise. Les contenus de cette page seront actualisés sur un traqueur et expireront au plus tard fin 2017.
 
 {{< figure 
 src="/img/perso/timing-apps-2017-08.jpg"
@@ -51,7 +51,7 @@ caption="apps utilisées au mois d'août 2017"
 - [Gemini](https://macpaw.com/gemini): repère et élimine les doublons sur votre Mac 
 - [PDF Pen Pro](https://smilesoftware.com/PDFpenPro) - Mon éditeur PDF préféré. Ajoute des signatures, textes, images, éditions et annotations. 
 - [NValt](http://brettterpstra.com/projects/nvalt/) - Une appli simple pour gérer rapidement et modifier des fichiers textes. Génial pour la prise rapide de notes.
-- [Spotify](https://spotify.com">Spotify) - Découverte musicale, playlists hors ligne.
+- [Spotify](https://spotify.com") - Découverte musicale par algorithme et accès aux playlists hors ligne.
 - [Flycut](https://github.com/TermiT/Flycut/releases) - Gestionnaire simple de presse-papiers 
 - [Time Lapse Assembler](http://www.dayofthenewdan.com/projects/time-lapse-assembler-1/) - Pas d'utilitaires inutiles dans le cas où vous devez créer rapidement une vidéo d’une séquence d’images timelapse
 - [CloudPull](https://www.goldenhillsoftware.com/cloudpull/) - Téléchargez une sauvegarde de vos data Gmail et autres Google sur votre ordinateur.
