@@ -8,7 +8,7 @@ Comme je l'ai écrit dans le passé [ce blog est désormais mortorisé par Hugo]
 
 ## Écrire des Posts sur mon MacBook Pro
 
-Tout d'abord, j'avais besoin de faciliter la création d'un nouveau post. [Mon thème](https://github.com/jnjosh/internet-weblog) a trois types de contenu et il n'est pas facile de se souvenir de la commande à faire pour produire le bon type de post. Pour résoudre cela j'ai créé quelques script simples bash pour aider. 
+Tout d'abord, j'avais besoin de faciliter la création d'un nouveau post. [Mon thème](https://github.com/jnjosh/internet-weblog) a trois types de contenu et il n'est pas facile de se souvenir de la commande à faire pour produire le bon type de post. Pour résoudre cela j'ai créé quelques scripts simples en ligne de commande pour aider. 
     
     function newmicropost() {
         local date=`date +%Y-%m-%d-%H%M%S`
@@ -16,19 +16,17 @@ Tout d'abord, j'avais besoin de faciliter la création d'un nouveau post. [Mon t
         hugo new ${file} | cut -d ' ' -f 1 | xargs subl 
     }
     
-    // $1 The name of the file to create
+    // $1 Le nom du fichier a creer 
     function newpost() {
         hugo new "posts/$1.md" | cut -d ' ' -f 1 | xargs subl
     }
     
-    // $1 The name of the file to create
+    // $1 Le nom du fichier a creer
     function newphotopost() {
     	hugo new "photos/$1.md" | cut -d ' ' -f 1 | xargs subl
     }
 
-This is really great when I want to publish a [Micro.blog](https://micro.blog) post about some idea that pops up while working. I’m already in the terminal normally so jumping to my blog directory and typing `newmicropost` is pretty quick.
-
-C'est vraiment génial quand je veux publier un article [Micro.blog](https://micro.blog) sur une idée qui surgit en travaillant. Je suis déjà dans le terminal normalement en train de sauter dans mon répertoire de blogs et taper `newmicropost` est assez rapide.
+C'est top quand je veux publier un post [Micro.blog](https://micro.blog) sur quelque idée pendant que je bosse. Je suis déjà normalement dans le terminal, aussi sauter vers mon répertoir de blog et taper  `newmicropost` va vraiment vite.
 
 ## Écrire des posts à partir de mon iPad ou iPhone
 

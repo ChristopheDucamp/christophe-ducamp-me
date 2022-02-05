@@ -1,1 +1,1 @@
-Un essai de blog personnel pour tester une motorisation GoHugo sur le thème internet-weblog.
+Un essai de blog personnel motorisé par GoHugo sur le thème internet-weblog.
