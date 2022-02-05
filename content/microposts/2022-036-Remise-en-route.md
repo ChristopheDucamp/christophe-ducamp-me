@@ -1,7 +1,6 @@
 ---
 title: 2022-02-05T15:34:06+02:00
 date: 2022-02-05T15:34:06+02:00
-draft: true
 ---
 @Nicolas
 
@@ -19,6 +18,6 @@ draft: true
 - naviguer pour oublier ce que je n’ai pas pu réaliser
 </blockquote>
 
-Laisse-régner le hasard, [Ne fais rien](https://ducamp.me/Ne_fais_rien)... 
+Je te proposerai bien de laisser régner le hasard. Aujourd'hui j'ai tiré la carte [Ne rien faire](https://ducamp.me/Ne_fais_rien) dans mon jeu de carte 😉 inspiré par Derek Sivers.
 
-Fais-toi plaisir à lire [How to live](https://sive.rs/h) de Derek Sivers. 27 cartes à jouer pour compléter ta liste ! 
+Fais-toi plaisir à lire son ouvrage : [How to live](https://sive.rs/h). 27 cartes à jouer pour se promener et compléter ta liste au jour le jour ! 
